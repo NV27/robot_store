@@ -59,3 +59,21 @@ a:hover{
     width: 20px;
     height: 20px;
 }
+
+.hidden{
+    display: none;
+}
+
+/*Product Page*/
+.pContainer{
+    display: flex;
+}
+
+.pImg{
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.pContent{
+    padding: 0 20px;
+}
