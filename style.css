@@ -1,0 +1,61 @@
+html{
+    font-family: "Helvetica", "sans-serif";
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    /*background-color: #e3e6eb;*/
+    background-color: #f3f4f8;
+}
+
+.productGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    /*width: 70%;*/
+}
+
+.frontDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.frontTitle{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.frontPrice{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.navBar{
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 20px;
+}
+
+.checkBox{
+    accent-color: #3a3a3d;
+    width: 20px;
+    height: 20px;
+}
